@@ -52,11 +52,12 @@ gem 'jquery-turbolinks'
 gem 'acts_as_list'
 gem "intercom-rails"
 gem 'letter_opener', group: :development
-
+gem 'mysql2'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
-  gem 'sqlite3'
+  gem 'capistrano-rails'
+  gem 'capistrano-passenger'
   gem 'pry'
   gem 'awesome_rails_console'
 end
